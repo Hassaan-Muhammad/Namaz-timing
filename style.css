@@ -13,3 +13,45 @@
 input{
     width: 500px;
 }
+body {
+    background-image: url("");
+    background-color: #cccccc;
+    background-size: cover;
+    background-repeat: no-repeat;
+   }
+   @media screen and (min-width: 0px) {
+    input{width: 20px;}
+}
+@media screen and (min-width: 159px) {
+    input{width: 60px;}
+}
+@media screen and (min-width: 209px) {
+    input{width: 80px;}
+}
+@media screen and (min-width: 250px) {
+    input{width: 100px;}
+}
+@media screen and (min-width: 313px) {
+    input{width: 130px;}
+}
+@media screen and (min-width: 347px) {
+    input{width: 150px;}
+}
+@media screen and (min-width: 385px) {
+    input{width: 170px;}
+}
+
+@media screen and (min-width: 420px) {
+    input{width: 300px;}
+}
+
+@media screen and (min-width: 770px) {
+    input{width: 400px;}
+}
+
+@media screen and (min-width: 1020px) {
+    input{width: 400px;}
+}
+@media screen and (min-width: 1440px) {
+    input{width: 400px;}
+}
